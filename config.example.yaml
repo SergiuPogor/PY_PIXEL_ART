@@ -1,0 +1,89 @@
+# Pixel Factory Configuration Example
+# Copy this file to config.yaml and customize as needed
+
+defaults:
+  # Default output directory for generated packs
+  output_dir: ./output
+
+  # Default creature resolution [width, height]
+  resolution: [32, 32]
+
+  # Default theme to use
+  theme: cute_forest
+
+  # Default number of creatures to generate
+  num_creatures: 10
+
+  # Default number of color variants per creature
+  num_variants: 2
+
+# Custom themes
+# You can define your own themes here
+themes:
+  fantasy_dragons:
+    description: "Mythical dragon creatures"
+    base_description: "small fantasy dragon creature"
+    mood_adjectives:
+      - fierce
+      - majestic
+      - ancient
+      - mystical
+      - powerful
+    color_palette_hints:
+      - red and gold
+      - blue and silver
+      - green and bronze
+      - purple and black
+      - white and ice blue
+    background_color: "#2a1a1a"
+
+  space_invaders:
+    description: "Retro space alien invaders"
+    base_description: "retro pixel space alien invader"
+    mood_adjectives:
+      - aggressive
+      - geometric
+      - angular
+      - blocky
+      - classic
+    color_palette_hints:
+      - neon green
+      - bright cyan
+      - hot pink
+      - electric yellow
+      - pure white
+    background_color: "#000000"
+
+  medieval_knights:
+    description: "Medieval armored knights"
+    base_description: "small medieval knight warrior"
+    mood_adjectives:
+      - noble
+      - brave
+      - armored
+      - heroic
+      - gallant
+    color_palette_hints:
+      - silver and blue
+      - gold and red
+      - bronze and green
+      - steel and purple
+      - iron and orange
+    background_color: "#3a3a3a"
+
+  zombie_horde:
+    description: "Undead zombie creatures"
+    base_description: "small zombie undead creature"
+    mood_adjectives:
+      - grotesque
+      - shambling
+      - decayed
+      - menacing
+      - horrific
+    color_palette_hints:
+      - gray and green
+      - pale and red
+      - brown and yellow
+      - dark purple
+      - sickly green
+    background_color: "#1a1a0d"
